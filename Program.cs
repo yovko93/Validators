@@ -4,7 +4,7 @@ var validator = new PhoneValidator();
 
 while (true)
 {
-    Console.WriteLine("Insert PhoneNumber: (xxx or xxx):");
+    Console.WriteLine("Insert PhoneNumber: (889 754650 or xxx):");
     string? input = Console.ReadLine();
 
     try
