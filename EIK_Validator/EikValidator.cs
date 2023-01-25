@@ -1,4 +1,4 @@
-﻿namespace Validators.EikValidator
+﻿namespace Validators.Eik_Validator
 {
     #region Usings
     using System.Text.RegularExpressions;

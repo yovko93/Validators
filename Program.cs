@@ -1,4 +1,4 @@
-﻿using Validators.PhoneValidator;
+﻿using Validators.Phone_Validator;
 
 var validator = new PhoneValidator();
 

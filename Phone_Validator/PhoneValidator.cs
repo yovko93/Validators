@@ -1,4 +1,4 @@
-﻿namespace Validators.PhoneValidator
+﻿namespace Validators.Phone_Validator
 {
     #region Usings
     using System.Text.RegularExpressions;
