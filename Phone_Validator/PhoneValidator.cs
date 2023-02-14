@@ -22,7 +22,7 @@
 
         private bool HandleValidation(string phoneNumber)
         {
-            string PATTERN = @"^[8]{1}[7-9]{1}[2-9]{1}[0-9]{6}$";
+            string PATTERN = @"^(875|876|877|878|879|882|883|884|885|886|887|888|889|890|892|893|894|895|896|897|898|899|988|989|999){1}[0-9]{6}$";
             var isMatch = Regex.IsMatch(phoneNumber, PATTERN);
             return isMatch;
         }
