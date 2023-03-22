@@ -1,10 +1,12 @@
-﻿using Validators.Phone_Validator;
+﻿using Validators.Email_Validator;
+using Validators.Phone_Validator;
 
-var validator = new PhoneValidator();
+var validator = new EmailValidator();
 
 while (true)
 {
-    Console.WriteLine("Insert PhoneNumber: (889 754650 or xxx):");
+    //Console.WriteLine("Insert PhoneNumber: (889 754650 or xxx):");
+    Console.WriteLine("Insert email: ");
     string? input = Console.ReadLine();
 
     try
